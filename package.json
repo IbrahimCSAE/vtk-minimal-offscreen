@@ -1,0 +1,19 @@
+{
+  "name": "vtkjs-offscreen-example",
+  "version": "1.0.0",
+  "description": "Minimal VTK.js offscreen rendering example",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack serve --mode development --open",
+    "build": "webpack --mode production"
+  },
+  "dependencies": {
+    "@kitware/vtk.js": "^30.3.1"
+  },
+  "devDependencies": {
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1",
+    "html-webpack-plugin": "^5.5.3"
+  }
+}
