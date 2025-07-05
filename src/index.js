@@ -18,7 +18,7 @@ async function performOffscreenRendering() {
   renderWindow.addView(openGLRenderWindow);
   
   // Set size for offscreen rendering
-  openGLRenderWindow.setSize(16400, 16400);
+  openGLRenderWindow.setSize(16384, 16384);
   
   // Important: Use offscreen canvas
   const offscreenCanvas = document.createElement('canvas');
